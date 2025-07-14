@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Comfortaa } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({
+const comfortaa = Comfortaa({
   weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={montserrat.className}>
+    <html lang="fr" className={comfortaa.className}>
       <body className="antialiased">
         {children}
       </body>

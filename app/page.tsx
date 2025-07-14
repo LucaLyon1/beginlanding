@@ -15,11 +15,14 @@ export default function Home() {
           priority
           className="mb-8"
         />
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-4" style={{ color: 'var(--primary)' }}>
-          Begin Up, le lancement approche
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-4" style={{ color: 'var(--secondary)' }}>
+          Begin Up, le lancement
+        </h1>
+        <h1 className="p-1 text-4xl md:text-5xl text-white font-bold text-center mb-4" style={{ backgroundColor: 'var(--primary)' }}>
+          approche ...
         </h1>
         <p className="text-lg md:text-xl text-center mb-8 text-gray-700 max-w-xl">
-          La plateforme française pour connecter les entrepreneurs, co-fondateurs et investisseurs. Partagez, matchez, innovez.
+          La plateforme française pour connecter les entrepreneurs et co-fondateurs. Partagez, matchez, innovez.
         </p>
         <Link href="/inscription" className="button-primary mb-4 shadow-lg">Rejoindre la liste d&apos;attente</Link>
       </section>
@@ -39,7 +42,7 @@ export default function Home() {
         <div className="flex flex-col items-center text-center px-4">
           <FaComments size={40} className="mb-4 text-[var(--secondary)]" />
           <h2 className="section-title">Discutez & investissez</h2>
-          <p>Rencontrez des investisseurs, échangez et faites grandir vos projets ensemble.</p>
+          <p>Rencontrez des co-fondateurs, échangez et faites grandir vos projets ensemble.</p>
         </div>
         <div className="flex flex-col items-center text-center px-4">
           <FaUserFriends size={40} className="mb-4 text-[var(--secondary)]" />
