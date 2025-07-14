@@ -31,7 +31,7 @@ export default function Home() {
       <section className="w-full max-w-4xl py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col items-center text-center px-4">
           <FaHandshake size={40} className="mb-4 text-[var(--secondary)]" />
-          <h2 className="section-title">Trouvez votre co-fondateur</h2>
+          <h2 className="section-title">Trouvez votre co&#8209;fondateur</h2>
           <p>Matchez avec des profils complémentaires selon vos compétences et vos idées.</p>
         </div>
         <div className="flex flex-col items-center text-center px-4">
