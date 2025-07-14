@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaHandshake, FaLightbulb, FaComments, FaUserFriends } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         <p className="text-lg md:text-xl text-center mb-8 text-gray-700 max-w-xl">
           La plateforme française pour connecter les entrepreneurs, co-fondateurs et investisseurs. Partagez, matchez, innovez.
         </p>
-        <a href="#inscription" className="button-primary mb-4 shadow-lg">Rejoindre la liste d'attente</a>
+        <Link href="/inscription" className="button-primary mb-4 shadow-lg">Rejoindre la liste d&apos;attente</Link>
       </section>
 
       {/* Features Section */}
@@ -49,7 +50,7 @@ export default function Home() {
 
       {/* Secondary CTA */}
       <section className="w-full flex flex-col items-center py-8">
-        <a href="#inscription" className="button-primary">Je veux être informé du lancement</a>
+        <Link href="/inscription" className="button-primary">Je veux être informé du lancement</Link>
       </section>
     </main>
   );
